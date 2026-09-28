@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: micronaut-tracing-cancellation-reproducer
+  server:
+    port: -1
+
+otel:
+  traces:
+    exporter: none
+  metrics:
+    exporter: none
+  logs:
+    exporter: none
